@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".infoActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_info"
+        android:layout_margin="10dp"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="병원소개"/>
+
+    <ImageView
+        android:layout_below="@+id/title_info"
+        android:layout_width="wrap_content"
+        android:layout_height="440dp"
+        android:id="@+id/img_info"
+        android:src="@drawable/unnamed"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/txt_info"
+        android:layout_below="@id/img_info"
+        android:layout_marginVertical="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="설명이 들어갈 자리"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_info_back"
+        android:layout_below="@id/txt_info"
+        android:layout_alignParentRight="true"
+        android:text="뒤로"/>
+
+
+  </RelativeLayout>

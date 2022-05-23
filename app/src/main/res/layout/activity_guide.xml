@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    tools:context=".GuideActivity">
+
+
+    <TableRow>
+
+        <TextView android:text="업무안내" android:layout_span="2" style="@style/title_style"/>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="평일" />
+
+        <TextView android:text="AM 09:00 ~ PM 16:20" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="평일" />
+
+        <TextView android:text="AM 09:00 ~ PM 16:20" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="평일" />
+
+        <TextView android:text="AM 09:00 ~ PM 16:20" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView android:text="평일" />
+
+        <TextView android:text="AM 09:00 ~ PM 16:20" />
+    </TableRow>
+    <TableRow>
+
+        <TextView android:text="오시는 길" android:layout_span="2" style="@style/title_style"/>
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/img_map"
+            android:src="@drawable/sub01_ico01"/>
+        <TextView android:text="[주소]\n서울시 광평로"/>;
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/sub01_ico02"/>
+        <TextView android:text="[주소]\n서울시 광평로"/>
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/sub01_ico03"/>
+        <TextView android:text="[주소]\n서울시 광평로"/>
+    </TableRow>
+
+
+</TableLayout>
