@@ -7,7 +7,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
-public class    GuideActivity extends AppCompatActivity implements View.OnClickListener {
+public class  GuideActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

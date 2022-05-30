@@ -4,6 +4,7 @@
         <item name="android:textSize">32dp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">#FF5722</item>
+        <item name="android:padding">15dp</item>
         <item name="android:gravity">center</item>
         <item name="android:background">#FFC107</item>
     </style>
